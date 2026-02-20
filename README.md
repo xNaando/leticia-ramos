@@ -93,7 +93,7 @@ O número de WhatsApp está configurado em vários lugares:
 
 1. **Botão flutuante:** `index.html` (linha ~280)
 2. **Botões CTA:** `index.html` (várias localizações)
-3. **Link direto:** Substitua `553188841213` pelo número correto
+3. **Link direto:** Substitua `5531988841213` pelo número correto
 
 ### Imagens
 
