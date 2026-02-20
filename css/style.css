@@ -375,10 +375,14 @@ p {
     border-radius: 20px;
     position: relative;
     border-left: 4px solid var(--secondary-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .testimonial-content {
     margin-bottom: 1.5rem;
+    flex-grow: 1;
 }
 
 .testimonial-content p {
@@ -386,6 +390,19 @@ p {
     color: var(--text-dark);
     font-size: 1.1rem;
     line-height: 1.6;
+}
+
+.testimonial-author .author-info {
+    display: flex;
+    align-items: center;
+}
+
+.author-avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 1rem;
 }
 
 .testimonial-author h4 {
