@@ -86,10 +86,16 @@ p {
     height: 80px;
 }
 
-.nav-logo h1 {
-    font-size: 1.5rem;
-    color: var(--primary-color);
-    margin-bottom: 0;
+.nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.nav-logo-img {
+    height: 50px;
+    width: auto;
+    object-fit: contain;
 }
 
 .nav-logo span {
@@ -151,7 +157,7 @@ p {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: linear-gradient(135deg, var(--cream) 0%, var(--white) 100%);
+    background-color: #FEFEFE;
     padding-top: 80px;
 }
 
@@ -211,17 +217,17 @@ p {
     font-size: 1.2rem;
 }
 
-.hero-image-placeholder {
-    width: 100%;
-    height: 500px;
-    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
-    border-radius: 20px;
+.hero-image {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: var(--white);
-    font-size: 4rem;
-    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+}
+
+.hero-logo {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    object-fit: contain;
 }
 
 /* Section Headers */
@@ -591,6 +597,10 @@ p {
         display: flex;
     }
 
+    .nav-logo-img {
+        height: 40px;
+    }
+
     .hero-content {
         grid-template-columns: 1fr;
         text-align: center;
@@ -603,6 +613,10 @@ p {
 
     .hero-image-placeholder {
         height: 300px;
+    }
+
+    .hero-logo {
+        max-width: 500px;
     }
 
     .about-content {
