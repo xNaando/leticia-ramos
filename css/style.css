@@ -605,7 +605,11 @@ p {
         display: flex;
         flex-direction: column-reverse;
         text-align: center;
-        gap: 2rem;
+        gap: 3rem;
+    }
+
+    .hero-image {
+        margin-bottom: 2rem;
     }
 
     .hero-title {
